@@ -1,0 +1,81 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.exercise {
+  background-color: rgb(236, 53, 114);
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Exercício Parte 1 */
+.container h1 {
+  text-align: center;
+}
+
+.container p {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+li:hover {
+  background-color: orange;
+}
+
+li:active {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+/* Exercício Parte 2 */
+.box h3 {
+  padding: 0 10px;
+}
+
+.box h1 {
+  padding: 0 10px;
+}
+
+.box p {
+  padding: 0 10px;
+}
+
+.box div:hover {
+  border: 2px solid #000;
+}
+
+.box div:nth-of-type(1) {
+  background-color: yellow;
+  padding: 4px;
+}
+
+.box div:nth-of-type(2) {
+  background-color: orange;
+  padding: 4px;
+}
+
+.box div:nth-of-type(3) {
+  background-color: indigo;
+  padding: 20px;
+}
+
+.box div:nth-of-type(4) {
+  background-color: #8b4513;
+  padding: 4px;
+}
+
+.box div:nth-of-type(5) {
+  background-color: #ffffe0;
+  padding: 4px;
+}
+
+.box div:nth-child(odd) {
+  font-style: italic;
+}
