@@ -15,3 +15,14 @@ console.log('valor da divisão: ', divisao)
 
 const modulo = a % b
 console.log('valor do modulo: ', modulo)
+
+// Exercício 2
+if (a > b) {
+  console.log(a)
+}
+else if (a < b) {
+  console.log(b)
+}
+else {
+  console.log('valores iguais')
+}
