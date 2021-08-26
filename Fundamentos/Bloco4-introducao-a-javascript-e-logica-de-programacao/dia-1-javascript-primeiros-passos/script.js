@@ -1,5 +1,6 @@
 const a = 3
 const b = 2
+const c = 1
 
 const soma = a + b
 console.log('valor da soma: ', soma)
@@ -25,4 +26,15 @@ else if (a < b) {
 }
 else {
   console.log('valores iguais')
+}
+
+// Exercício 3
+if (a > b && a > c) {
+  console.log(a)
+}
+else if (b > a && b > c) {
+  console.log(b)
+}
+else {
+  console.log(c)
 }
