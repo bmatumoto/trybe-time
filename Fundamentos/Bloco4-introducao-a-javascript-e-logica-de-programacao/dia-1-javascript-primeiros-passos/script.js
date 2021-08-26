@@ -116,3 +116,16 @@ if (mynumber1 % 2 == 0 || mynumber2 % 2 == 0 || mynumber3 % 2 == 0) {
 else {
   console.log(false)
 }
+
+// Exercício 9
+console.log('Exercício 9 - - - ->')
+const mynumber4 = 22
+const mynumber5 = 56
+const mynumber6 = 17
+
+if (mynumber4 % 2 != 0 || mynumber5 % 2 != 0 || mynumber6 % 2 != 0) {
+  console.log(true)
+} 
+else {
+  console.log(false)
+}
