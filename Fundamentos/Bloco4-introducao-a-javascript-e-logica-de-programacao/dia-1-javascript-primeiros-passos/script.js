@@ -66,7 +66,7 @@ else {
 }
 
 // Exercício 6
-const peca = 'cVALO'
+const peca = 'caVALO'
 const pecaXadrez = peca.toLocaleLowerCase()
 
 if (pecaXadrez == 'cavalo') {
@@ -74,4 +74,32 @@ if (pecaXadrez == 'cavalo') {
 }
 else {
   console.log('valor inválido')
+}
+
+// Exercício 7
+const nota = 33
+
+if (nota >= 90 && nota <= 100) {
+  console.log('A')
+}
+else if (nota >= 80 && nota < 90) {
+  console.log('B')
+}
+else if (nota >= 70 && nota < 80) {
+  console.log('C')
+}
+else if (nota >= 60 && nota < 70) {
+  console.log('D')
+}
+else if (nota >= 50 && nota < 60) {
+  console.log('E')
+}
+else if (nota < 50 && nota > 0) {
+  console.log('F')
+}
+else if (nota < 0 || nota > 100) {
+  console.log('Erro do valor da nota!!')
+}
+else {
+  console.log('Esse valor não é um número.')
 }
