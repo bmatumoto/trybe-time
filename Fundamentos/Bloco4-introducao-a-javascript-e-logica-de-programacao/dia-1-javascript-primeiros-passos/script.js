@@ -49,3 +49,18 @@ else if (a < 0) {
 else {
   console.log('valor igual a zero')
 }
+
+// Exercício 5
+const angle1 = 80
+const angle2 = 70
+const angle3 = -2
+
+if (angle1 + angle2 + angle3 === 180) {
+  console.log(true)
+}
+else if (angle1 < 0 || angle2 < 0 || angle3 < 0 ) {
+  console.warn('Não é um número válido')
+}
+else {
+  console.log(false)
+}
