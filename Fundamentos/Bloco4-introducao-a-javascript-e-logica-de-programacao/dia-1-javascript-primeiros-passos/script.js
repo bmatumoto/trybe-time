@@ -38,3 +38,14 @@ else if (b > a && b > c) {
 else {
   console.log(c)
 }
+
+// Exercício 4
+if (a > 0) {
+  console.log('positive')
+}
+else if (a < 0) {
+  console.log('negative')
+}
+else {
+  console.log('valor igual a zero')
+}
