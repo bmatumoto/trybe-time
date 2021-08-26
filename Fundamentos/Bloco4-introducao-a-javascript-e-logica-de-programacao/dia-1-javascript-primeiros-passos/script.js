@@ -64,3 +64,14 @@ else if (angle1 < 0 || angle2 < 0 || angle3 < 0 ) {
 else {
   console.log(false)
 }
+
+// Exercício 6
+const peca = 'cVALO'
+const pecaXadrez = peca.toLocaleLowerCase()
+
+if (pecaXadrez == 'cavalo') {
+  console.log('movimento em L')
+}
+else {
+  console.log('valor inválido')
+}
