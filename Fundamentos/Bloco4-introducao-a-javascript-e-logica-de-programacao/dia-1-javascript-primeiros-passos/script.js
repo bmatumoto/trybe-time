@@ -103,3 +103,16 @@ else if (nota < 0 || nota > 100) {
 else {
   console.log('Esse valor não é um número.')
 }
+
+// Exercício 8
+console.log('Exercício 8 - - - ->')
+const mynumber1 = 7
+const mynumber2 = 10
+const mynumber3 = 49
+
+if (mynumber1 % 2 == 0 || mynumber2 % 2 == 0 || mynumber3 % 2 == 0) {
+  console.log(true)
+} 
+else {
+  console.log(false)
+}
