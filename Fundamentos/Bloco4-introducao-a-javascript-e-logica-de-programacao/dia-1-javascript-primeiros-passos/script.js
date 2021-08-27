@@ -129,3 +129,21 @@ if (mynumber4 % 2 != 0 || mynumber5 % 2 != 0 || mynumber6 % 2 != 0) {
 else {
   console.log(false)
 }
+
+// Exercício 10
+console.log('- - - - - 1 0 - - - - -')
+const valorCusto = 120
+const valorVenda = 160
+const imposto = 20
+
+const valorImposto = valorCusto * (imposto / 100)
+const valorCustoTotal = valorCusto + valorImposto
+let lucro = valorVenda - valorCustoTotal
+
+if (valorCusto > 0 && valorVenda > 0 && imposto > 0) {
+  lucro = lucro * 1000
+  console.log('O valor do lucro foi: ', lucro)
+}
+else {
+  console.log('valores menores que zero')
+}
