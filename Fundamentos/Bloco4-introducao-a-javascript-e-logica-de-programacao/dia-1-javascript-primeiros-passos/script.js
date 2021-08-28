@@ -147,3 +147,51 @@ if (valorCusto > 0 && valorVenda > 0 && imposto > 0) {
 else {
   console.log('valores menores que zero')
 }
+
+// Exercício 11 <--------
+console.log(' ______11______')
+const salary = 1600.00
+let salaryBase
+let aliquot
+let tax
+let takeHomeSalary
+
+if (salary > 0 && salary <= 1556.94) {
+  aliquot = salary * 0.08
+}
+else if (salary >= 1556.95 && salary <= 2594.92) {
+  aliquot = salary * 0.09
+}
+else if (salary >= 2594.93 && salary <= 5189.82) {
+  aliquot = salary * 0.11
+}
+else if (salary > 5189.82) {
+  aliquot = salary - 570.88
+}
+else {
+  console.log('Náo é um salário válido!')
+}
+salaryBase = salary - aliquot
+console.log(salaryBase)
+
+if (salaryBase <= 1903.98) {
+  tax = 0
+}
+else if (salaryBase >= 1903.99 && salaryBase <= 2826.65) {
+  tax = (salaryBase * 0.075) - 142.80
+}
+else if (salaryBase >= 2826.66 && salaryBase <= 3751.05) {
+  tax = (salaryBase * 0.15) - 354.80
+}
+else if (salaryBase >= 3751.06 && salaryBase <= 4664.68) {
+  tax = (salaryBase * 0.225) - 636.13
+}
+else if (salaryBase > 4664.68) {
+  tax = (salaryBase * 0.275) - 869.36
+}
+else {
+  console.log('Salário inválido!')
+}
+console.log(tax)
+takeHomeSalary = salaryBase - tax
+console.log('O salário líquido é: ', takeHomeSalary)
