@@ -17,3 +17,10 @@ console.log('- - - > Exercício 3')
 let itemsArray = numbers.length
 let median = sum / itemsArray
 console.log(median)
+
+console.log('- - - > Exercício 4')
+if (median > 20) {
+  console.log('valor maior que 20')
+} else {
+  console.log('valor menor ou igual a 20')
+}
