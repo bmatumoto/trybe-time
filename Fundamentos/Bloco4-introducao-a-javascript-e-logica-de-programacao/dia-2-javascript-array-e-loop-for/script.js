@@ -12,3 +12,8 @@ for (let number of numbers) {
   sum = sum + number
 }
 console.log(sum)
+
+console.log('- - - > Exercício 3')
+let itemsArray = numbers.length
+let median = sum / itemsArray
+console.log(median)
