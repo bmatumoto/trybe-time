@@ -5,3 +5,10 @@ console.log('- - - > Exercício 1')
 for (let number of numbers) {
   console.log(number)
 }
+
+console.log('- - - > Exercício 2')
+let sum = 0
+for (let number of numbers) {
+  sum = sum + number
+}
+console.log(sum)
