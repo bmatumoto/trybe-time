@@ -74,3 +74,9 @@ for (let i = 1; i < 26; i++) {
   arrayNumbers.push(i)
 }
 console.log(arrayNumbers)
+
+console.log('- - - > Exercício 9')
+for (arrayNumber of arrayNumbers) {
+  let divide = arrayNumber / 2
+  console.log(arrayNumber + ' / 2 é igual: ' + divide)
+}
