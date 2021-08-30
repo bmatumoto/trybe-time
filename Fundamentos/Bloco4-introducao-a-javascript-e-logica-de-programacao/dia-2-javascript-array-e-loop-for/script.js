@@ -25,7 +25,6 @@ if (median > 20) {
   console.log('valor menor ou igual a 20')
 }
 
-// [5, 9, 3, 19, 70, 8, 100, 2, 35, 27]
 console.log('- - - > Exercício 5')
 let firstIndex = numbers[0]
 for (let i = 0; i < numbers.length; i++) {
@@ -39,3 +38,18 @@ for (let i = 0; i < numbers.length; i++) {
   }
 }
 console.log(firstIndex)
+
+console.log('- - - > Exercício 6')
+let sumOdd = 0
+for (let i = 0; i < numbers.length; i++) {
+  if (numbers[i] % 2 != 0) {
+    sumOdd = sumOdd + 1
+  }
+}
+
+if (sumOdd > 0) {
+  console.log('Quantidade de números ímpares no array: ', sumOdd)
+}
+else {
+  console.log('Nenhum valor ímpar encontrado!')
+}
