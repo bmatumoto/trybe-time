@@ -24,3 +24,18 @@ if (median > 20) {
 } else {
   console.log('valor menor ou igual a 20')
 }
+
+// [5, 9, 3, 19, 70, 8, 100, 2, 35, 27]
+console.log('- - - > Exercício 5')
+let firstIndex = numbers[0]
+for (let i = 0; i < numbers.length; i++) {
+  if (numbers[i + 1] != undefined) {
+    if (firstIndex > numbers[i + 1]) {
+      firstIndex = firstIndex
+    }
+    else {
+      firstIndex = numbers[i + 1]
+    }
+  }
+}
+console.log(firstIndex)
