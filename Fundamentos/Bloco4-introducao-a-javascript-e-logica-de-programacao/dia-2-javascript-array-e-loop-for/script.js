@@ -53,3 +53,17 @@ if (sumOdd > 0) {
 else {
   console.log('Nenhum valor ímpar encontrado!')
 }
+
+console.log('- - - > Exercício 7')
+let indexZero = numbers[0]
+for (let i = 0; i < numbers.length; i++) {
+  if (numbers[i + 1] != undefined) {
+    if (indexZero < numbers[i + 1]) {
+      indexZero = indexZero
+    }
+    else {
+      indexZero = numbers[i + 1]
+    }
+  }
+}
+console.log(indexZero)
