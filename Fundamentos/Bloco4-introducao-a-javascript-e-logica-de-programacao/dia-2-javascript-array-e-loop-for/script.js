@@ -67,3 +67,10 @@ for (let i = 0; i < numbers.length; i++) {
   }
 }
 console.log(indexZero)
+
+console.log('- - - > Exercício 8')
+let arrayNumbers = []
+for (let i = 1; i < 26; i++) {
+  arrayNumbers.push(i)
+}
+console.log(arrayNumbers)
