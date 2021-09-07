@@ -31,7 +31,20 @@ function minValue(paramArray) {
       arrayIndex = i;
     }
   }
-  console.log(arrayIndex)
   return arrayIndex;
 }
 minValue([2, 4, 6, 7, 10, 0, -3])
+
+console.log('F U N C T I O N - - - - > Exercício 4 < - - - - ')
+function namePersons(arrNames) {
+  let index = 0;
+  let name;
+  for (let i = 0; i < arrNames.length; i += 1) {
+    if (arrNames[index].length < arrNames[i].length) {
+      index = i;
+      name = arrNames[i];
+    }
+    name = arrNames[index];
+  }
+  return name;
+}
