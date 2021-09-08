@@ -40,3 +40,11 @@ function createHolidays(paramHoliday) {
   containerHoliday.appendChild(btnHoliday);
 }
 createHolidays('Feriados')
+
+const holidayButton = document.getElementById('btn-holiday');
+const dayHoliday = document.querySelectorAll('.holiday');
+holidayButton.addEventListener('click', function (event) {
+  for (let day of dayHoliday) {
+    day.classList.toggle('holiday-day');
+  }
+})
