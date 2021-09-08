@@ -18,16 +18,25 @@ const dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 
 function generateCalendarDay(arrDays) {
   const listDays = document.getElementById('days');
   for (let day of arrDays) {
-    const itemList = document.createElement('li')
-    itemList.innerText = day
+    const itemList = document.createElement('li');
+    itemList.innerText = day;
     itemList.classList.add('day')
     if (day === 24 || day === 25 || day === 31) {
-      itemList.classList.add('holiday')
+      itemList.classList.add('holiday');
     }
     if (day === 4 || day === 11 || day === 18 || day === 25) {
-      itemList.classList.add('friday')
+      itemList.classList.add('friday');
     }
-    listDays.appendChild(itemList)
+    listDays.appendChild(itemList);
   }
 }
 generateCalendarDay(dezDaysList)
+
+function createHolidays(paramHoliday) {
+  const btnHoliday = document.createElement('button');
+  btnHoliday.innerText = paramHoliday;
+  btnHoliday.id = 'btn-holiday';
+  const containerHoliday = document.querySelector('.buttons-container');
+  containerHoliday.appendChild(btnHoliday);
+}
+createHolidays('Feriados')
