@@ -75,21 +75,15 @@ fridayButton.addEventListener('click', function() {
   }
 })
 
-// function displayFridays(fridaysArray) {
-//   let getFridayButton = document.querySelector('#btn-friday');
-//   let fridays = document.getElementsByClassName('friday');
-//   let newFridayText = 'SEXTOU o/';
-
-//   getFridayButton.addEventListener('click', function() {
-//   for (let index = 0; index < fridays.length; index += 1) {
-//     if (fridays[index].innerHTML !== newFridayText) {
-//         fridays[index].innerHTML = newFridayText;
-//     } else {
-//         fridays[index].innerHTML = fridaysArray[index];
-//       }
-//     }
-//   })
-// };
-
-// let dezFridays = [ 4, 11, 18, 25 ];
-// displayFridays(dezFridays);
+function zoom() {
+  const dias = document.querySelectorAll('.day');
+  dias.forEach(function (item) {
+    item.addEventListener('mouseover', function () {
+      item.style.fontSize = '26px';
+    })
+    item.addEventListener('mouseleave', function () {
+      item.style.fontSize = '20px';
+    })
+  })
+}
+zoom()
