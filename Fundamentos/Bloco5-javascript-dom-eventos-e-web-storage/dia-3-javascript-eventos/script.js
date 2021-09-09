@@ -87,3 +87,11 @@ function zoom() {
   })
 }
 zoom()
+
+function addTask(task) {
+  const listTaks = document.querySelector('.my-tasks')
+  const taskItem = document.createElement('span');
+  taskItem.innerText = task;
+  listTaks.appendChild(taskItem)
+}
+addTask('Fazer os exercícios do dia 5.3')
