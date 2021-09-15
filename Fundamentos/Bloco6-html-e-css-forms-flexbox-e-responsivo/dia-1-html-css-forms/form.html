@@ -4,8 +4,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Form</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <form action="#" method="get">
+    <fieldset>
+      <div>
+        <label for="form-name">Nome:</label>
+        <input type="text" id="form-name" name="name" maxlength="40" required>
+      </div>
+      <div>
+        <label for="form-email">Email:</label>
+        <input type="text" id="form-email" name="email" maxlength="50" required>
+      </div>
+      <div>
+        <label for="form-cpf">CPF:</label>
+        <input type="text" id="form-cpf" name="cpf" maxlength="11" required>
+      </div>
+      <div>
+        <label for="form-address">Endereço:</label>
+        <input type="text" id="form-address" name="address" maxlength="200" required>
+      </div>
+      <div>
+        <label for="form-city">Cidade:</label>
+        <input type="text" id="form-city" name="city" maxlength="28" required>
+      </div>
+      <div>
+        <label for="form-state">Estado:</label>
+        <select name="state" id="form-state" required></select>
+      </div>
+    </fieldset>
+    <button type="submit">Enviar</button>
+  </form>
+  <script src="script.js"></script>
   
 </body>
 </html>

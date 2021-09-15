@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+fieldset {
+  margin: 20px;
+}
+
+input {
+  margin: 10px 0;
+}
