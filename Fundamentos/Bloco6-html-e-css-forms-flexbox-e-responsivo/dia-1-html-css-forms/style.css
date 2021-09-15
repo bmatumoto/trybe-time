@@ -3,10 +3,34 @@
   padding: 0;
 }
 
+button {
+  margin: 0 20px;
+  padding: 8px;
+}
+
+div {
+  margin: 10px 0;
+  width: 100%;
+}
+
 fieldset {
   margin: 20px;
+  padding: 20px;
 }
 
 input {
+  margin: 10px 0;
+}
+
+label {
+  display: block;
+  width: 70px;
+}
+
+legend {
+  padding: 0 10px;
+}
+
+select {
   margin: 10px 0;
 }
